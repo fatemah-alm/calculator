@@ -14,7 +14,8 @@ def main():
 			case '-':
 				print(x - y)
 			case '/':
-				print(x/y)
+				result = round(x/y, 2)
+				print(result)
 			case '*':
 				print(x*y)
 			case _: 
